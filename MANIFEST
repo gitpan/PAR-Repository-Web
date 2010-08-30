@@ -1,4 +1,6 @@
+.Makefile.PL.swp
 Changes
+examples/META.yml
 examples/par_repository_web.yml
 examples/par_repository_web_CACHED.yml
 examples/testrepo/dbm_checksums.txt
@@ -17,6 +19,7 @@ inc/Module/Install/Fetch.pm
 inc/Module/Install/Include.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
+inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/PAR/Repository/Web.pm

@@ -9,7 +9,7 @@ use PAR::Dist ();
 #use Catalyst qw/-Debug ConfigLoader Static::Simple DefaultEnd/;
 use Catalyst qw/ConfigLoader Static::Simple DefaultEnd/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 #
 # Configure the application 
