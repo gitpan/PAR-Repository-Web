@@ -1,5 +1,11 @@
 This file documents the revision history for Perl extension PAR::Repository::Web.
 
+0.03  Sun Sep  5 13:05 2010
+	- Add missing dependency on Catalyst::View::TT
+	- Update Catalyst server scripts
+        - Drop Catalyst::Plugin::DefaultEnd
+        - Use Catalyst::Action::RenderView
+
 0.02  Mon Aug 30 10:20 2010
 	- Add missing dependency to Makefile.PL
 

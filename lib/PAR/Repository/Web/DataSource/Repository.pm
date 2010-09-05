@@ -188,7 +188,7 @@ sub get_repository {
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2006-2008 by Steffen Mueller E<lt>smueller@cpan.orgE<gt>
+Copyright 2006-2010 by Steffen Mueller E<lt>smueller@cpan.orgE<gt>
 
 This library is free software, you can redistribute it and/or modify
 it under the same terms as Perl itself.

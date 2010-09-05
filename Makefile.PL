@@ -8,8 +8,8 @@ all_from 'lib/PAR/Repository/Web.pm';
 requires 'Catalyst::Runtime' => '5.7014';
 requires 'Catalyst::Plugin::ConfigLoader';
 requires 'Catalyst::Plugin::Static::Simple';
-requires 'Catalyst::Plugin::DefaultEnd';
 requires 'Catalyst::Action::RenderView';
+requires 'Catalyst::View::TT';
 requires 'Template' => '2.20';
 requires 'parent';
 requires 'Config::General'; # This should reflect the config file format you've chosen

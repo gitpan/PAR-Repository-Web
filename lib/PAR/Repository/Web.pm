@@ -1,15 +1,12 @@
 package PAR::Repository::Web;
-
 use strict;
 use warnings;
+our $VERSION = '0.03';
+
 use PAR::Dist ();
 
-#         -Debug: activates the debug mode for very useful log messages
-
-#use Catalyst qw/-Debug ConfigLoader Static::Simple DefaultEnd/;
-use Catalyst qw/ConfigLoader Static::Simple DefaultEnd/;
-
-our $VERSION = '0.02';
+#use Catalyst qw/-Debug ConfigLoader Static::Simple/;
+use Catalyst qw/ConfigLoader Static::Simple /;
 
 #
 # Configure the application 
@@ -20,6 +17,7 @@ __PACKAGE__->config(
         INCLUDE_PATH => __PACKAGE__->path_to('templates'),
     }
 );
+
 
 #
 # Start the application
@@ -36,7 +34,7 @@ PAR::Repository::Web - A simple web viewer for PAR::Repository
 
 =head1 SYNOPSIS
 
-    cp examples/par_repository_web.pl .
+    cp examples/par_repository_web.yml .
     cp -r examples/testrepo .
     script/par_repository_web_server.pl
 
@@ -54,7 +52,7 @@ L<Catalyst>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2006-2008 by Steffen Mueller E<lt>smueller@cpan.orgE<gt>
+Copyright 2006-2010 by Steffen Mueller E<lt>smueller@cpan.orgE<gt>
 
 This library is free software, you can redistribute it and/or modify
 it under the same terms as Perl itself.
